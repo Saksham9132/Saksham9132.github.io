@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+I am a software developement student at SAIT. I love programming and working with front-end technologies. I also like to play video games. 
 
 ### More Information
 
@@ -12,4 +12,4 @@ A place to include any other types of information that you'd like to include abo
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[saksham9132@gmail.com](mailto:saksham9132@gmail.com)
