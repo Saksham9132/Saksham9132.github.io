@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Welcome to my page
+title: Blog Post
 published: true
 ---
 # Working with ReactJS and its functional components.
