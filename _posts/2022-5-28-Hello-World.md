@@ -60,7 +60,7 @@ Secondly, I am adding another functionality that will allow a user to copy all t
 
 Lastly, I am adding another function that will clear all the text inside the text box using react hooks. This function just uses useState setText variable and set it to empty string, hence resulting in clearing all the text from the text field. The code for that functionality as as follows:
 
-<p align="center">  <img width="390" alt="www.google.com" height="100" src="https://i.imgur.com/6ZHZ9Op.png"> </p> 
+<p align="center">  <img width="350" alt="www.google.com" height="80" src="https://i.imgur.com/6ZHZ9Op.png"> </p> 
 
 <p align="center"> <img width="900" alt="www.google.com" height="30" src="https://i.imgur.com/XA97dTX.png">  </p> 
 In this way, we can create a useful text utility app, that can help us in our day-to-day life. By understanding these basic functions, you can create your personalized text utility app and add as many functions and features you want! 
