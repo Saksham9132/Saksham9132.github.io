@@ -43,7 +43,7 @@ Hooks in react were recently introduced (in 2018), and the main functionality of
 In the previous blog, I explained the concept of React and hooks in ReactJS. Additionally, I made a basic webpage of Text Utility App and how we can add a text to the textbox and set the text in uppercase, all with the help of hooks. 
 
 
-## Adding More logic to Text Utility App
+## Adding More logic to Text Utility App 🔥
 
 Currently, this app only converts text to upper case, which may not be very helpful. To make this application better and enhance its functionality, I will explain how to add more functions to this application. In this topic, I will be explaining how to implement those functions and how you can add your own custom features, in case you work with writing text a lot. To help you understand this better, I will be adding and explaining a couple of functionalities, after understanding you can add more features that you like easily.  For now, this app only converts text to upper case so I will add another button that does the opposite of that by changing the text to lowercase. The idea here is the same which is changing the state of the object to lowercase using useState. Remember how I made the function handleUpper in the previous blog which gets triggered when the button “Convert to Uppercase” is clicked in the textform.js file. I am doing the same thing here but for converting to lower case this time, so I am adding another button and calling it “Convert to Lowercase” and on clicking, this button will trigger another function called handleLower which converts all the text entered in the text box to lower case. Below is the code of the function handleLower and the button:
 
@@ -70,7 +70,7 @@ To add more logic to functionality, this app will also count the number of words
 <p align="center">  <img width="580" alt="www.google.com" height="100" src="https://i.imgur.com/Cw08yIW.png"> </p> 
 
 
-## Changing themes on the App
+## Changing themes on the App 🔄
 
 Now let’s focus on making this application more user-friendly. You might have seen and used this feature in applications that allow the user to switch to dark or light mode.
 
@@ -81,11 +81,11 @@ Any app which offers the feature of personalization is gaining ground nowadays. 
 Below is the video demonstration of how you can implement changing dark mode, hope this makes it clear: 
 
 
-## Wrapping Up
+## Wrapping Up 🙌
 
 Yayy! You have reached to the end of this blog, now is the time to wrap it up with a quick summary, so this blog started with a quick refresher of Reactjs and hooks like useState and props that I have covered in the previous blog ( Working with ReactJS and its functional components). Then, I build and enhanced the Text Utility Application by introducing more logic and features to it. This application can be used as an text editor. I also explained how you can add custom features and different functionality according to your need. And therefore, can create a custom Text utility application. In order to make it look even better, I demonstrated how to add an option to change the mode from dark to light and vice versa. If you understood the concept, you can now make any react app and use hooks to add functions and features. Thanks for reading it, and I hope it was helpful. 😊  
 
-😎
+
 
 ## Video 
 
