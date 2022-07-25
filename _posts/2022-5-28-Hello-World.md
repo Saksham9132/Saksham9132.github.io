@@ -56,9 +56,9 @@ Secondly, I am adding another functionality that will allow a user to copy all t
 
 <p align="center">  <img width="450" alt="www.google.com" height="120" src="https://i.imgur.com/KFmqlsM.png"> </p> 
 
-<p align="center"> <img width="900" alt="www.google.com" height="20" src="https://i.imgur.com/IaxpPb3.png">  </p> 
+<p align="center"> <img width="900" alt="www.google.com" height="20" src="https://i.imgur.com/BP91qtN.png">  </p> 
 
-[img]https://i.imgur.com/KFmqlsM.png[/img]
+[img]https://i.imgur.com/BP91qtN.png[/img]
 
 
 ## What's new in React v18.0?
