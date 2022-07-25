@@ -63,6 +63,11 @@ Lastly, I am adding another function that will clear all the text inside the tex
 <p align="center">  <img width="390" alt="www.google.com" height="100" src="https://i.imgur.com/6ZHZ9Op.png"> </p> 
 
 <p align="center"> <img width="900" alt="www.google.com" height="30" src="https://i.imgur.com/XA97dTX.png">  </p> 
+In this way, we can create a useful text utility app, that can help us in our day-to-day life. By understanding these basic functions, you can create your personalized text utility app and add as many functions and features you want! 
+
+To add more logic to functionality, this app will also count the number of words and characters typed into the text area. By using text.split(“ “).length , it will count the number of words in the text field, and for counting the character I used a simple function of text.length. 
+
+<p align="center">  <img width="580" alt="www.google.com" height="100" src="https://i.imgur.com/Cw08yIW.png"> </p> 
 
 
 ## What's new in React v18.0?
