@@ -70,11 +70,14 @@ To add more logic to functionality, this app will also count the number of words
 <p align="center">  <img width="580" alt="www.google.com" height="100" src="https://i.imgur.com/Cw08yIW.png"> </p> 
 
 
-## What's new in React v18.0?
+## Changing themes on the App
+
+Now let’s focus on making this application more user-friendly. You might have seen and used this feature in applications that allow the user to switch to dark or light mode.
+
+<p align="center">  <img width="420" alt="www.google.com" height="360" src="https://i.imgur.com/Cw08yIW.png"> </p> 
 
 
-The latest version of react is **React v18.0**, let’s quickly dive into some of the new features and upgrades react has to offer in this version, and how it’s better than previous ones. To check the react version, simply go to the package.json file and all the components versions are listed there. The new upgrade comes with features like _automatic batching and startTransition API_. The most important mechanism introduced in React 18 is **concurrency**. It enables react to create multiple versions of any react page. Concurrency in react is a complex topic to study for now but will be very helpful to work with during later stages of our learning react. 
-In addition to that, **Suspense** is also introduced, which eases data accessing in react applications. Suspense allows the user to specify the loading state for a part that is not ready to be displayed yet. Coming to the features, let’s start with **Transitions**. Suspense and transitions work well together. Transitions are used to differentiate between urgent and non-urgent updates. The term urgent updates here refer to direct user interactions like typing, clicking, etc. whereas non-urgent refers to moving from one user interface to another like an indirect interaction. Adding an import statement “ import {startTransition} from ‘react’; “ enables react to know which updates are urgent. [1]
+[img]https://i.imgur.com/3MZolFk.png[/img]
 
 ## Creating our first React App with Bootstrap
 
