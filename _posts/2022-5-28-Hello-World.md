@@ -4,17 +4,16 @@ title: Blog Post
 published: true
 ---
 # Creating a Text Utility app by using React and Hooks 
-In the presence of HTML, and CSS-like front-end libraries that get the work done, why would we need to learn React? Well, let’s figure out the answer to this together by learning React and what makes it better than HTML and why is this used more nowadays. 
 <figure>
-<p align="center"> <a href="https://www.uxpin.com/studio/blog/react-native-vs-reactjs/">   <img width="360" alt="www.google.com" height="180" src="https://i.imgur.com/3jtBnIC.png"> </a>
+<p align="center"> <img width="180" alt="www.google.com" height="360" src="https://i.imgur.com/BOQ0OAG.png"> 
 <figcaption align="center"> Figure 1</figcaption> </p> 
 </figure>
 
 
-## What is ReactJS?
 
-Let’s start by introducing ReactJS, **ReactJS** is an open-source front-end JavaScript library to build interactive UIs. It is a very efficient, responsive, and fast JavaScript library available to build user interfaces. React uses **JavaScript** and **HTML** languages to build components and pages. With the help of reactJS, components are made so easy to work with. 
-_It is expected that you know basic JavaScript, if not it is suggested to learn some basic JavaScript before moving forward._
+## Disclaimer
+
+This blog is a continuation of the previous blog post ( Working with ReactJS and its functional components), in the previous blog, I covered what is ReactJS, functional components, and a small demo on that. In this blog, I will implement the basic understanding from the previous blog by working on creating a more functional Text Utility App. 
 
 ## Understanding JSX and its purpose
 
