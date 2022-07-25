@@ -5,7 +5,7 @@ published: true
 ---
 # Creating a Text Utility app by using React and Hooks 
 <figure>
-<p align="center"> <img width="180" alt="www.google.com" height="360" src="https://i.imgur.com/BOQ0OAG.png"> 
+<p align="center"> <img width="280" alt="www.google.com" height="380" src="https://i.imgur.com/BOQ0OAG.png"> 
 <figcaption align="center"> Figure 1</figcaption> </p> 
 </figure>
 
