@@ -74,78 +74,17 @@ To add more logic to functionality, this app will also count the number of words
 
 Now let’s focus on making this application more user-friendly. You might have seen and used this feature in applications that allow the user to switch to dark or light mode.
 
-<p align="center"> <a href="https://reinteractive.com/posts/403-simple-css-dark-theming-for-accessibility "> <img width="420" alt="www.google.com" height="360" src="https://i.imgur.com/Cw08yIW.png"> </a> </p> 
+<p align="center"> <a href="https://reinteractive.com/posts/403-simple-css-dark-theming-for-accessibility "> <img width="420" alt="www.google.com" height="360" src="https://i.imgur.com/3MZolFk.png"> </a> </p> 
+
+Any app which offers the feature of personalization is gaining ground nowadays. People prefer to have the ability to switch themes or change to dark/light mode and have that personalized version of that app. In order to make our text utility app look cool, I will demonstrate how to implement this theme functionality on our text utility app by just using the basic react hook useState. In this part, we will be not only be using useState but also props to send values to different components and render them according to the mode selected. There is a switch in the navbar, which is a bootstrap component, it is the component with which our end user will switch modes. When dark mode is enabled, it will change the color of all the components in the app from text form color to all the text headings colors. Since, we are using useState to switch modes, therefore, there is no delay when switching between modes and it all happen smoothly. This is the reason I prefer to use react Hooks because of this advantage it offers. 
+
+Below is the video demonstration of how you can implement changing dark mode, hope this makes it clear: 
 
 
-[img]https://i.imgur.com/3MZolFk.png[/img]
+## Wrapping Up
 
-## Creating our first React App with Bootstrap
+Yayy! You have reached to the end of this blog, now is the time to wrap it up with a quick summary, so this blog started with a quick refresher of Reactjs and hooks like useState and props that I have covered in the previous blog ( Working with ReactJS and its functional components). Then, I build and enhanced the Text Utility Application by introducing more logic and features to it. This application can be used as an text editor. I also explained how you can add custom features and different functionality according to your need. And therefore, can create a custom Text utility application. In order to make it look even better, I demonstrated how to add an option to change the mode from dark to light and vice versa. If you understood the concept, you can now make any react app and use hooks to add functions and features. Thanks for reading it, and I hope it was helpful. 😊  
 
-Before starting with functional components, let’s make a simple react page.
-But before that, I want to share a tool with my readers here, what if I tell you that there exists a tool that provides you with code for most of the components developers use in creating a website. Well, you might have guessed I am talking about **Bootstrap** here. For those who don’t know about bootstrap, bootstrap is a platform where users can find CSS, HTML, and JavaScript components and templates. For react, we will also be using Bootstrap so we can focus more on react rather than spending time on HTML and CSS. Now let’s get started, we will make an app with the help of bootstrap. 
-Open the react app you have created at the beginning of the blog. Go to the App.Js file, and clear out all the code inside the return statement. Now we will be writing our code inside the return statement. Now, before using bootstrap code in our react app we have to add bootstrap script files in index.html.
- From bootstrap, locate the starter template provided and copy the Bootstrap JavaScript and CSS scripts and paste it into the Index.html file under the public folder. Copy any bootstrap code of various components and paste it into App.js and save. Now you might be getting a few errors in the App.js. Nothing to worry about here this is because the components we copied from bootstrap are not in JSX but in HTML. To make it work, we will be doing some changes here, change all the **“class=” to “className=”**. And add **“/”** at the end of the input tags, and any other tag if it does not have an ending tag. Explore bootstrap components and create your personalized react-app.
-
-Hurray! another milestone achieved, now you can create a basic react app with the help of bootstrap.
-
-
-## What are the functional components?
-
-Now is the right time to introduce some functional components in react. **Functional components** are those components that use concepts like props, hooks, and other various methods to enhance functionality. This might sound confusing at first but hold on we will start from props and go all the way to hooks and their implementations.
-
-### Understanding Props and PropTypes
-
-Starting with the props, they make coding easier by not making us write overhead code. To write less code and get more output is something everyone wants. To make this true, react introduced props. **Props** allow reusing components by enabling the feature of sending arguments to React components for creating unique components out of one component. With the help of props, developers can reduce the number of pages or components in the react app and get the most out of one single component. To understand this better, here is an example below:
-
-Inside of App.js, let’s assume you are calling a component Greet and to pass argument you will be using props like this:
-
-<Greet name=”Saksham” message=”Have a good day” />;
-
-Now, the function Greet will take the argument props from the calling program and it will look like this:
-
-Export default function Greet(props) {  
-return <p> Hello {props.name} ! {props.message}</p>
-
-}
-
-The output will be:  Hello Saksham ! Have a good day
-
-As you can see in the example above the props.name is **JavaScript**, therefore it is written inside curly braces in the function. Now, with that example, you can pass different name values and the component Greet will display accordingly. You can also pass an object using props.
-
-You can also create a **propType**, to ensure the argument passed should be a particular datatype like string etc., for example in the above example, propType will look like this:
-
-import PropTypes from ‘pro-types’;
-
-Greet.propTypes = {
-
-name: PropTypes.string
-
-}
-
-It would give an error on the console if the argument passed is not a string.
-
-You can also set default values with props using
-
-Greet.defaultProps = {
-
-name: ‘user’
-
-}
-
-This will set the default value of name as user.
-
-### Understanding Hooks
-
-**Hooks** in react were recently introduced (in 2018), and the main functionality of hooks is the freedom they provide by allowing the implementation of _useState, useEffect_, and many other ReactJS features without having to create a separate class for those features and states.
-
-These components when implemented enhance the functionality and usability of the functional components. Hooks can only be called and used in functional components. Hooks make it easier and faster to code with efficiency by not making users write more overhead code, therefore resulting in making the code look cleaner.
-
-Below is an example of useState,
-<p align="center"> <img width="550" alt="www.google.com" height="30" src="https://i.imgur.com/As0Zp5D.png"> </p>
-
-In the above example, the variable text is created and its default value is set as “Enter text here”, if you want to change its value , the setText variable is called. My video demonstration of this explains this more clearly and better.
-
-In the past when hooks were not introduced, class-based components can only be used to store and manage the state of the objects, but today hooks made it possible to store and manage the state of the objects without having to create a class in a functional component. Overall, it is quite interesting to learn hooks and how they work in web applications. [1]
 
 ## Video 
 
