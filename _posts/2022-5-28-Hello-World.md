@@ -85,6 +85,7 @@ Below is the video demonstration of how you can implement changing dark mode, ho
 
 Yayy! You have reached to the end of this blog, now is the time to wrap it up with a quick summary, so this blog started with a quick refresher of Reactjs and hooks like useState and props that I have covered in the previous blog ( Working with ReactJS and its functional components). Then, I build and enhanced the Text Utility Application by introducing more logic and features to it. This application can be used as an text editor. I also explained how you can add custom features and different functionality according to your need. And therefore, can create a custom Text utility application. In order to make it look even better, I demonstrated how to add an option to change the mode from dark to light and vice versa. If you understood the concept, you can now make any react app and use hooks to add functions and features. Thanks for reading it, and I hope it was helpful. 😊  
 
+😎
 
 ## Video 
 
