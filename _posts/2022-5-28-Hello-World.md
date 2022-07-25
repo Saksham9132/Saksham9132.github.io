@@ -43,13 +43,15 @@ Hooks in react were recently introduced (in 2018), and the main functionality of
 In the previous blog, I explained the concept of React and hooks in ReactJS. Additionally, I made a basic webpage of Text Utility App and how we can add a text to the textbox and set the text in uppercase, all with the help of hooks. 
 
 
-## Understanding the default files and folders
+## Adding More logic to Text Utility App
+
+Currently, this app only converts text to upper case, which may not be very helpful. To make this application better and enhance its functionality, I will explain how to add more functions to this application. In this topic, I will be explaining how to implement those functions and how you can add your own custom features, in case you work with writing text a lot. To help you understand this better, I will be adding and explaining a couple of functionalities, after understanding you can add more features that you like easily.  For now, this app only converts text to upper case so I will add another button that does the opposite of that by changing the text to lowercase. The idea here is the same which is changing the state of the object to lowercase using useState. Remember how I made the function handleUpper in the previous blog which gets triggered when the button “Convert to Uppercase” is clicked in the textform.js file. I am doing the same thing here but for converting to lower case this time, so I am adding another button and calling it “Convert to Lowercase” and on clicking, this button will trigger another function called handleLower which converts all the text entered in the text box to lower case. Below is the code of the function handleLower and the button:
 
 
-Out of all the files installed through installation, the **src** folder contains an App.js file, which is the main file containing all the components used in the react app and the logic behind that.  The src folder contains a file index.js, index.js is like a starting point in react app. If you read the code inside of index.js, it states to run the App component where id is root. This is the reason why App.js runs when the **“npm start”** command is issued in the terminal.
+<p align="center">  <img width="250" alt="www.google.com" height="200" src="https://i.imgur.com/SFkBMZU.png"> </p> 
 
-<p align="left">  <img width="250" alt="www.google.com" height="200" src="https://i.imgur.com/Nk4S3kN.png">  &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-  <img width="280" alt="www.google.com" height="140" src="https://i.imgur.com/frGbISc.png">  </p> 
+<p align="center"> <img width="280" alt="www.google.com" height="140" src="https://i.imgur.com/frGbISc.png">  </p> 
+
 
 Inside App.js, the code written is the JSX. It is preferred that App.js should not contain any JSX code, instead should be used in components, and components should be rendered in the App.js file. By default, there is no component folder created by react. The developer has to create a components folder under the src folder where all the components will be stored like navbar.js, form.js, etc. Components can be reused, and they can be called from any page. Components can be made unique by-passing props to them, which we will be covering ahead.
 
