@@ -3,7 +3,7 @@ layout: post
 title: Blog Post
 published: true
 ---
-# Working with ReactJS and its functional components.
+# Creating a Text Utility app by using React and Hooks 
 In the presence of HTML, and CSS-like front-end libraries that get the work done, why would we need to learn React? Well, let’s figure out the answer to this together by learning React and what makes it better than HTML and why is this used more nowadays. 
 <figure>
 <p align="center"> <a href="https://www.uxpin.com/studio/blog/react-native-vs-reactjs/">   <img width="360" alt="www.google.com" height="180" src="https://i.imgur.com/3jtBnIC.png"> </a>
