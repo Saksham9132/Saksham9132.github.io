@@ -5,7 +5,7 @@ published: true
 ---
 # Creating a Text Utility app by using React and Hooks 
 <figure>
-<p align="center"> <img width="280" alt="www.google.com" height="380" src="https://i.imgur.com/BOQ0OAG.png"> 
+<p align="center"> <img width="380" alt="www.google.com" height="400" src="https://i.imgur.com/BOQ0OAG.png"> 
 <figcaption align="center"> Figure 1</figcaption> </p> 
 </figure>
 
@@ -50,10 +50,16 @@ Currently, this app only converts text to upper case, which may not be very help
 
 <p align="center">  <img width="250" alt="www.google.com" height="200" src="https://i.imgur.com/SFkBMZU.png"> </p> 
 
-<p align="center"> <img width="280" alt="www.google.com" height="140" src="https://i.imgur.com/frGbISc.png">  </p> 
+<p align="center"> <img width="280" alt="www.google.com" height="140" src="https://i.imgur.com/IaxpPb3.png">  </p> 
 
+Secondly, I am adding another functionality that will allow a user to copy all the text inside the text box again by using react hooks concept. The idea is the same but only the code inside the function changes. In this case, we are declaring a variable text and using “getElementById” and passing the value of the id of the text field which in my case is “exampleFormControlTextarea1”. Change this value to the ID you have set for the text field. This function then uses the navigator function that writes the text to the clipboard, hence resulting in copying the text. Below is the code for that function:
 
-Inside App.js, the code written is the JSX. It is preferred that App.js should not contain any JSX code, instead should be used in components, and components should be rendered in the App.js file. By default, there is no component folder created by react. The developer has to create a components folder under the src folder where all the components will be stored like navbar.js, form.js, etc. Components can be reused, and they can be called from any page. Components can be made unique by-passing props to them, which we will be covering ahead.
+<p align="center">  <img width="250" alt="www.google.com" height="200" src="https://i.imgur.com/KFmqlsM.png"> </p> 
+
+<p align="center"> <img width="280" alt="www.google.com" height="140" src="https://i.imgur.com/IaxpPb3.png">  </p> 
+
+[img]https://i.imgur.com/KFmqlsM.png[/img]
+
 
 ## What's new in React v18.0?
 
