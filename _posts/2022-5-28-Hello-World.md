@@ -15,27 +15,33 @@ published: true
 
 This blog is a continuation of the previous blog post ( Working with ReactJS and its functional components), in the previous blog, I covered what is ReactJS, functional components, and a small demo on that. In this blog, I will implement the basic understanding from the previous blog by working on creating a more functional Text Utility App. 
 
-## Understanding JSX and its purpose
+## Why Text Utility App
 
-**JSX** is an extension of JavaScript syntax.[1] JSX is not required but it is preferred to use in React. The main feature of JSX is that it allows you to write JavaScript inside JSX using curly braces. In simple words, JSX is like a combination of HTML, JavaScript, and CSS. JSX may not look very different from HTML but yet there are some differences between the two. 
-_To learn more about JSX, feel free to check online resources._
- If you know HTML, JSX will not be a problem in React.
- **A common question about what is the need for JSX in react?**
- So the answer is that JSX allows you to write JavaScript, HTML, and CSS together, therefore you can do JavaScript logic with HTML, and CSS components. Hence, bringing all three together in one place to provide a better developer experience. If you are using JSX in react then you can only return one element. If you want to return multiple elements, then either wrap all those elements inside the div tag or return elements as an array.
+Before diving into this, you might be wondering why am I creating this Text Utility Application? What is the need for that and is it worth the time and hassle? So the answer to the above question is yes, it is worth it, and in this blog, we will see how you can create your own Text Utility Application and also how can you add features regarding Text such as copying the text, changing it to upper case/lower case and etc. The other reason for choosing this application is that by building this application I can use react Hooks to build almost everything in this application. The same functionality if done in HTML may take more time and more lines of code and it will be harder to implement logic in HTML. 
 
-## Creating a framework for ReactJS
+## About This Blog
 
-A quick hands-on for bringing life to react app, create a folder on your computer where you want to store all the react pages. In the next step, it is preferred to use Visual Studio, open a new terminal window in Visual Studio and type the command **“npx create-react-app &nbsp;name-of-the-react-folder”** and press enter.
+As the name of the blog suggests what we will be working on in this blog and now without wasting any time let’s work on our Text Utility application which we created and enhance its functionality by just using ReactJS and demonstrate how powerful this JavaScript library is.
 
-Here in the example below, you can see that a react app named my-react is created.
+Before you jump into the practical part of this blog, make sure you have Text Utility Application framework ready from our previous blog so we can straight away continue. I will try my best to keep most of the demonstration in the video attached to this blog and focus theoretical part in the blog for the readers to learn and understand the basics. I hope you will enjoy reading this blog and learn a lot from the theory provided and my video demonstration. 
 
-<p align="center">  <img width="450" alt="www.google.com" height="30" src="https://i.imgur.com/2b3Ukp3.png">  </p> 
+## A Quick Refresher
 
-After executing this command, it will load all the necessary files and folders inside the folder created in the first step, these files and folders are used to run react app, and they can be modified according to our needs.
+<figure>
+<p align="center"> <a href="https://www.uxpin.com/studio/blog/react-native-vs-reactjs/">   <img width="360" alt="www.google.com" height="180" src="https://i.imgur.com/3jtBnIC.png"> </a>
+<figcaption align="center"> Figure 1</figcaption> </p> 
+</figure>
 
-To run a react app, simply type “npm start” in the terminal, and then it will run the react app on the default browser. Make sure you are in the right folder before doing “npm start” or else you will get errors. To move to the right folder use the “cd name of folder” command in the terminal. 
-_Hurray! You have successfully created your first frame of react app._
-Whenever you will be working on a react app. These steps remain the same.
+ReactJS is an open-source front-end JavaScript library to build interactive UIs. It is a very efficient, responsive, and fast JavaScript library available to build user interfaces. React uses JavaScript and HTML languages to build components and pages. With the help of ReactJS, components are made so easy to work with. It is expected that you know basic JavaScript, if not it is suggested to learn some basic JavaScript before moving forward. 
+
+Functional components are those components that use concepts like props, hooks, and other various methods to enhance functionality. 
+
+Props allow reusing components by enabling the feature of sending arguments to React components for creating unique components out of one component. 
+
+Hooks in react were recently introduced (in 2018), and the main functionality of hooks is the freedom they provide by allowing the implementation of useState, useEffect, and many other ReactJS features without having to create a separate class for those features and states.
+
+In the previous blog, I explained the concept of React and hooks in ReactJS. Additionally, I made a basic webpage of Text Utility App and how we can add a text to the textbox and set the text in uppercase, all with the help of hooks. 
+
 
 ## Understanding the default files and folders
 
