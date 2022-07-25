@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Blog Post
+title: Blog Post 2
 published: true
 ---
 # Creating a Text Utility app by using React and Hooks 
