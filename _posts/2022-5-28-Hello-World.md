@@ -74,7 +74,7 @@ To add more logic to functionality, this app will also count the number of words
 
 Now let’s focus on making this application more user-friendly. You might have seen and used this feature in applications that allow the user to switch to dark or light mode.
 
-<p align="center">  <img width="420" alt="www.google.com" height="360" src="https://i.imgur.com/Cw08yIW.png"> </p> 
+<p align="center"> <a href="https://reinteractive.com/posts/403-simple-css-dark-theming-for-accessibility "> <img width="420" alt="www.google.com" height="360" src="https://i.imgur.com/Cw08yIW.png"> </a> </p> 
 
 
 [img]https://i.imgur.com/3MZolFk.png[/img]
