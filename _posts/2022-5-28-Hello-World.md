@@ -48,7 +48,7 @@ In the previous blog, I explained the concept of React and hooks in ReactJS. Add
 Currently, this app only converts text to upper case, which may not be very helpful. To make this application better and enhance its functionality, I will explain how to add more functions to this application. In this topic, I will be explaining how to implement those functions and how you can add your own custom features, in case you work with writing text a lot. To help you understand this better, I will be adding and explaining a couple of functionalities, after understanding you can add more features that you like easily.  For now, this app only converts text to upper case so I will add another button that does the opposite of that by changing the text to lowercase. The idea here is the same which is changing the state of the object to lowercase using useState. Remember how I made the function handleUpper in the previous blog which gets triggered when the button “Convert to Uppercase” is clicked in the textform.js file. I am doing the same thing here but for converting to lower case this time, so I am adding another button and calling it “Convert to Lowercase” and on clicking, this button will trigger another function called handleLower which converts all the text entered in the text box to lower case. Below is the code of the function handleLower and the button:
 
 
-<p align="center">  <img width="250" alt="www.google.com" height="200" src="https://i.imgur.com/SFkBMZU.png"> </p> 
+<p align="center">  <img width="450" alt="www.google.com" height="150" src="https://i.imgur.com/SFkBMZU.png"> </p> 
 
 <p align="center"> <img width="280" alt="www.google.com" height="140" src="https://i.imgur.com/IaxpPb3.png">  </p> 
 
