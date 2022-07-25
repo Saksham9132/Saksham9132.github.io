@@ -11,21 +11,21 @@ published: true
 
 
 
-## Disclaimer
+## Disclaimer 👀
 
 This blog is a continuation of the previous blog post ( Working with ReactJS and its functional components), in the previous blog, I covered what is ReactJS, functional components, and a small demo on that. In this blog, I will implement the basic understanding from the previous blog by working on creating a more functional Text Utility App. 
 
-## Why Text Utility App
+## Why Text Utility App 🤔
 
 Before diving into this, you might be wondering why am I creating this Text Utility Application? What is the need for that and is it worth the time and hassle? So the answer to the above question is yes, it is worth it, and in this blog, we will see how you can create your own Text Utility Application and also how can you add features regarding Text such as copying the text, changing it to upper case/lower case and etc. The other reason for choosing this application is that by building this application I can use react Hooks to build almost everything in this application. The same functionality if done in HTML may take more time and more lines of code and it will be harder to implement logic in HTML. 
 
-## About This Blog
+## About This Blog 😎
 
 As the name of the blog suggests what we will be working on in this blog and now without wasting any time let’s work on our Text Utility application which we created and enhance its functionality by just using ReactJS and demonstrate how powerful this JavaScript library is.
 
 Before you jump into the practical part of this blog, make sure you have Text Utility Application framework ready from our previous blog so we can straight away continue. I will try my best to keep most of the demonstration in the video attached to this blog and focus theoretical part in the blog for the readers to learn and understand the basics. I hope you will enjoy reading this blog and learn a lot from the theory provided and my video demonstration. 
 
-## A Quick Refresher
+## A Quick Refresher 👍
 
 <figure>
 <p align="center"> <a href="https://www.uxpin.com/studio/blog/react-native-vs-reactjs/">   <img width="360" alt="www.google.com" height="180" src="https://i.imgur.com/3jtBnIC.png"> </a>
