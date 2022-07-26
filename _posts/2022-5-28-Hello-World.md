@@ -4,12 +4,9 @@ title: Blog Post 2
 published: true
 ---
 # Creating a Text Utility app by using React and Hooks 
-<figure>
+
 <p align="center"> <img width="430" alt="www.google.com" height="450" src="https://i.imgur.com/BOQ0OAG.png"> 
-<figcaption align="center"> Figure 1</figcaption> </p> 
-</figure>
-
-
+ </p> 
 
 ## Disclaimer 👀
 
@@ -80,22 +77,19 @@ Any app which offers the feature of personalization is gaining ground nowadays. 
 
 Below is the video demonstration of how you can implement changing dark mode, hope this makes it clear: 
 
-
-## Wrapping Up 🙌
-
-Yayy!🥳 You have reached to the end of this blog, now is the time to wrap it up with a quick summary, so this blog started with a quick refresher of Reactjs and hooks like useState and props that I have covered in the previous blog ( Working with ReactJS and its functional components). Then, I build and enhanced the Text Utility Application by introducing more logic and features to it. This application can be used as an text editor. I also explained how you can add custom features and different functionality according to your need. And therefore, can create a custom Text utility application. In order to make it look even better, I demonstrated how to add an option to change the mode from dark to light and vice versa. If you understood the concept, you can now make any react app and use hooks to add functions and features. Thanks for reading it, and I hope it was helpful. 😊  
-
-
-## Video 
-
 <div class="embed-responsive embed-responsive-16by9">
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/BO7qUbnf1lI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 </div>
 
+## Wrapping Up 🙌
+
+Yayy!🥳 You have reached to the end of this blog, now is the time to wrap it up with a quick summary, so this blog started with a quick refresher of Reactjs and hooks like useState and props that I have covered in the previous blog ( Working with ReactJS and its functional components). Then, I build and enhanced the Text Utility Application by introducing more logic and features to it. This application can be used as an text editor. I also explained how you can add custom features and different functionality according to your need. And therefore, can create a custom Text utility application. In order to make it look even better, I demonstrated how to add an option to change the mode from dark to light and vice versa. If you understood the concept, you can now make any react app and use hooks to add functions and features. Thanks for reading it, and I hope it was helpful. 😊  
+
+
 
 ## References
-**[1]** “React – a JavaScript library for building user interfaces,” _– A JavaScript library for building user interfaces_. [Online]. Available: https://reactjs.org/. [Accessed: 14-Jun-2022]. 
+**[1]** “My Blog Post 1: Working with React and its functional components". 
 
 **Figure 1** “React native vs. reactjs - understand the difference,” _Studio by UXPin_, 18-Feb-2022. [Online]. Available: https://www.uxpin.com/studio/blog/react-native-vs-reactjs/. [Accessed: 14-Jun-2022].
