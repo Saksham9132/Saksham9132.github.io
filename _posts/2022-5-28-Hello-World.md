@@ -77,7 +77,7 @@ Any app which offers the feature of personalization is gaining ground nowadays. 
 
 Below is the video demonstration of how you can implement changing dark mode, hope this makes it clear: 
 
-<div class="embed-responsive embed-responsive-16by9">
+<div class="embed-responsive embed-responsive-16by9" align="center">
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/BO7qUbnf1lI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
