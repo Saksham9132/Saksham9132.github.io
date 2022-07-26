@@ -37,7 +37,7 @@ Props allow reusing components by enabling the feature of sending arguments to R
 
 Hooks in react were recently introduced (in 2018), and the main functionality of hooks is the freedom they provide by allowing the implementation of useState, useEffect, and many other ReactJS features without having to create a separate class for those features and states.
 
-In the previous blog, I explained the concept of React and hooks in ReactJS. Additionally, I made a basic webpage of Text Utility App and how we can add a text to the textbox and set the text in uppercase, all with the help of hooks. 
+In the previous blog, I explained the concept of React and hooks in ReactJS. Additionally, I made a basic webpage of Text Utility App and how we can add a text to the textbox and set the text in uppercase, all with the help of hooks. [1]
 
 
 ## Adding More logic to Text Utility App 🔥
